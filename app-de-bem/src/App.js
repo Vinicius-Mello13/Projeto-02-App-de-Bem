@@ -8,12 +8,4 @@ function App() {
   );
 }
 
-export default App extends React.Component{
-  render(){
-    return(
-      <div>
-        <h1>Teste</h1>
-      </div>
-    )
-  }
-}
+export default App;
