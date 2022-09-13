@@ -1,7 +1,11 @@
 // Tela de cadastro completo
+import { useState } from "react";
+import { Form } from "../3.1 Sign Up";
+
+
 export function SignUp () {
     const [usersList, setUsersList] = useState(
-      users.map((currentUser) => {
+      usersList.map((currentUser) => {
         return {
           username: currentUser.username,
           nome: currentUser.nome,
