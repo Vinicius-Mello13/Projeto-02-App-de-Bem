@@ -1,5 +1,5 @@
 // Tela de cadastro completo
-export function signUp () {
+export function SignUp () {
     const [usersList, setUsersList] = useState(
       users.map((currentUser) => {
         return {
